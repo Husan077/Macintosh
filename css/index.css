@@ -1,0 +1,148 @@
+@import 'fonts.css';
+
+:root{
+    --m-l: 'montserrat-light';
+    --r-b: 'raleway-bold';
+    --r-e: 'raleway-extrabold';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular';
+    --r-s: 'raleway-semibold';
+    --m-m: 'Montserrat-Medium';
+    --n-r: 'NunitoSans-Regular'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------    header  -------------------- */
+
+.bg-light {
+    background-color: #f8f9fa00 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-family: var(--m-m);
+    font-size: 12px;
+    color: #191919;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #007d2f;
+}
+
+/* --------------    Section   --------------   */
+
+section{
+    padding: 105px 0 100px 0;
+    background: #f5f5f5;
+}
+
+section img{
+    width: 100%;;
+}
+
+section .block .block_col{
+    padding-bottom: 196px;
+}
+
+section .block{
+    display: flex;
+}
+section .block_text .info{
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 28px;
+}
+
+section input{
+    width: 100%;
+}
+
+section .fio{
+    display: flex;
+    padding-bottom: 28px;
+    width: 100%;
+}
+
+
+section .block h3{
+    font-size: 30px;
+    color: #171717;
+    font-family: var(--m-m);
+    font-weight: 800;
+    margin-bottom: 41px;
+}
+
+section .block p{
+    color: #787878;
+    font-weight: 16px;
+}
+
+section .block p .section_span{
+    color: #171717;
+    font-weight: 500;
+}
+
+section .block_text .fio input{
+    padding: 8px 0 8px 15px;
+    
+}
+
+section .fio_input {
+    margin-right: 28px;
+    width: 100%;
+}
+
+section .info_input_1{
+    padding: 17px 0 17px 17px;
+    margin-bottom: 28px;
+    
+}
+
+section .button{
+    padding: 22px 40px;
+    color: #ffffff;
+    background: #007d2f;
+    border: none;
+    text-transform: uppercase;
+    font-family: var(--m-l);
+    box-shadow:green;
+}
+
+section .button:hover{
+    background: #026d2b;
+
+}
+
+/* ----------------------------------     footer   --------------------------------------- */
+
+footer{
+    background: #141414;
+    padding: 106px 0 93px 0;
+}
+
+footer .block{
+    color: white;
+}
+
+footer .block h5 {
+    font-weight: 200;
+    padding-bottom: 25px;
+    font-family: var(--r-m);
+
+}
+
+footer .text_1{
+    font-family: var(--m-l);
+}
+footer .text{
+    font-family: var(--n-r);
+}
+
+footer .block_box{
+    display: flex;
+    justify-content: space-between;
+}

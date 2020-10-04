@@ -1,0 +1,134 @@
+@import 'index_Home.css';
+
+:root{
+    --m-l: 'montserrat-light';
+    --r-b: 'raleway-bold';
+    --r-e: 'raleway-extrabold';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular';
+    --r-s: 'raleway-semibold';
+    --m-m: 'Montserrat-Medium';
+    --n-r: 'NunitoSans-Regular'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------  header  ------------ */
+
+.bg-light {
+    background-color: #f8f9fa00 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-family: var(--m-m);
+    font-size: 15px;
+    color: #191919;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #007d2f;
+}
+
+/* -----------------  about  --------------------- */
+
+.about{
+    text-align: center;
+    padding-top: 98px;
+    padding-bottom: 42px;
+    background: #007d2f;
+}
+
+.about h2{
+    font-size: 30px;
+    color: #171717;
+    font-family: var(--m-m);
+    font-weight: 900;
+}
+
+.about p{
+    font-size: 17px;
+    color: #fefefe;
+    margin: 25px 0 54px 0;
+    font-family: var(--m-m);
+}
+
+/* -------------------- block_gl_img -------------------- */
+
+.block_gl_img{
+    position: relative;
+}
+
+.block_gl_img img{
+    width: 100%;
+}
+
+.block_gl_img a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 0;
+  /*padding-top: 133px;
+    padding-left: 146px; */
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 0px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.block_gl_img a:hover{
+    font-size: 45px;
+    background: #3f8158;
+    opacity: 85%;
+}
+
+
+.block_gl .gl_col{
+    padding-right: 0;
+    padding-left: 0;
+}
+.block_gl .gl_row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* ------------  footer  ---------------- */
+
+footer{
+    background: #141414;
+    padding: 106px 0 93px 0;
+}
+
+footer .block{
+    color: white;
+}
+
+footer .block h5 {
+    font-weight: 200;
+    padding-bottom: 25px;
+    font-family: var(--r-m);
+
+}
+
+footer .text_1{
+    font-family: var(--m-l);
+}
+footer .text{
+    font-family: var(--n-r);
+}
+
+footer .block_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
